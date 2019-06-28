@@ -1,0 +1,1 @@
+export const parallaxImage = 'assets/images/pc.jpg';
