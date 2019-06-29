@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d9b233136c8889ebbdc71dafd262101",
+    "revision": "67ac94c1d6f71b30194b6213d1fb6812",
     "url": "/MSKInformatica/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MSKInformatica/static/css/2.54faf5fa.chunk.css"
   },
   {
-    "revision": "77c7426f93aefc2022c8",
-    "url": "/MSKInformatica/static/css/main.b85e0daf.chunk.css"
+    "revision": "787119b05b03c9d0f87f",
+    "url": "/MSKInformatica/static/css/main.26f6f277.chunk.css"
   },
   {
     "revision": "1dd9d4a46482bffdc1e7",
     "url": "/MSKInformatica/static/js/2.0932c170.chunk.js"
   },
   {
-    "revision": "77c7426f93aefc2022c8",
+    "revision": "787119b05b03c9d0f87f",
     "url": "/MSKInformatica/static/js/main.5e4c08f9.chunk.js"
   },
   {
