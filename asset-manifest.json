@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/MSKInformatica/static/css/main.29bc844a.chunk.css",
+    "main.js": "/MSKInformatica/static/js/main.fd2146df.chunk.js",
+    "main.js.map": "/MSKInformatica/static/js/main.fd2146df.chunk.js.map",
+    "runtime~main.js": "/MSKInformatica/static/js/runtime~main.ba50c129.js",
+    "runtime~main.js.map": "/MSKInformatica/static/js/runtime~main.ba50c129.js.map",
+    "static/css/2.54faf5fa.chunk.css": "/MSKInformatica/static/css/2.54faf5fa.chunk.css",
+    "static/js/2.856e8481.chunk.js": "/MSKInformatica/static/js/2.856e8481.chunk.js",
+    "static/js/2.856e8481.chunk.js.map": "/MSKInformatica/static/js/2.856e8481.chunk.js.map",
+    "index.html": "/MSKInformatica/index.html",
+    "precache-manifest.895aae508d6708fb3e9f8c3cc0764d0c.js": "/MSKInformatica/precache-manifest.895aae508d6708fb3e9f8c3cc0764d0c.js",
+    "service-worker.js": "/MSKInformatica/service-worker.js",
+    "static/css/2.54faf5fa.chunk.css.map": "/MSKInformatica/static/css/2.54faf5fa.chunk.css.map",
+    "static/css/main.29bc844a.chunk.css.map": "/MSKInformatica/static/css/main.29bc844a.chunk.css.map",
+    "static/media/font-awesome.css": "/MSKInformatica/static/media/fontawesome-webfont.fee66e71.woff"
+  }
+}
