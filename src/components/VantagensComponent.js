@@ -20,7 +20,7 @@ function Vantagens(props) {
                         </div>
                         <div className="row">
                             <div className="col-12 col-md-4 text-black mt-md-5">
-                                <Card className="mt-2 mt-md-5 cardServicos">
+                                <Card className="mt-2 mt-md-5 cardVantagensServicos">
                                     <CardBody className="p-5">
                                         <CardTitle><b>Segurança</b></CardTitle>
                                         <CardBody>Sua empresa seguirá normas de segurança e terá um profissional capacitado para agir 
@@ -29,7 +29,7 @@ function Vantagens(props) {
                                     </CardBody>
                                 </Card>
                             </div>
-                            <div className="col-12 col-md-4 text-black mt-md-5 cardServicos">
+                            <div className="col-12 col-md-4 text-black mt-md-5 cardVantagensServicos">
                                 <Card className="mt-2 mt-md-5">
                                     <CardBody className="p-5">
                                         <CardTitle><b>Confiabilidade</b></CardTitle>
@@ -38,7 +38,7 @@ function Vantagens(props) {
                                     </CardBody>
                                 </Card>
                             </div>
-                            <div className="col-12 col-md-4 text-black mt-md-5 cardServicos">
+                            <div className="col-12 col-md-4 text-black mt-md-5 cardVantagensServicos">
                                 <Card className="mt-2 mt-md-5">
                                     <CardBody className="p-5">
                                         <CardTitle><b>Rapidez</b></CardTitle>

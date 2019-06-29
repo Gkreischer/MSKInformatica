@@ -46,7 +46,7 @@ h1, p {
     }
 
     .alturaJumbotronServicos {
-        height: 100vh;
+        height: 70vh;
     }
 
     .alturaJumbotronSobre {
@@ -73,7 +73,7 @@ h1, p {
 
 /* Animações */
 
-.cardServicos {
+.cardVantagensServicos {
 	position: relative;
 	top: 0;
 	-webkit-transition: top 1s ease;
@@ -81,6 +81,19 @@ h1, p {
 	-o-transition: top 1s ease;
 	transition: top 1s ease;
 }
-.cardServicos:hover {
+.cardVantagensServicos:hover {
 	top: 25px;
 }
+
+.cardServicos {
+	position: relative;
+	-webkit-transition: color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
+	-moz-transition: color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
+	-o-transition: color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
+	transition: color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
+}
+.cardServicos:hover {
+	color: #FFFFFF;
+	background-color: #59BBEC;
+}
+

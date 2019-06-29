@@ -14,9 +14,13 @@ function Servicos(props) {
 
         return (
             <Col md={4} key={servico.id}>
-                <Card className="mt-3 mt-md-0">
-                <CardImg top width="100%" src={servico.imagem} alt="Card image cap" />
+                <Card className="mt-3 mt-md-0 cardServicos">
                     <CardBody>
+                        <div className="text-center">
+                            <span className="display-1">
+                                <i className={servico.imagem} aria-hidden="true"></i>
+                            </span>
+                        </div>
                         <CardTitle>{servico.nome}</CardTitle>
                         <CardText className="text-left">{servico.descricao}</CardText>
                     </CardBody>
