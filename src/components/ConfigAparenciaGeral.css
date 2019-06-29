@@ -27,6 +27,8 @@ html, body {
     width: 50em;
 }
 
+
+
 h1, p {
     text-align: center;
 }
@@ -46,5 +48,39 @@ h1, p {
     .alturaJumbotronServicos {
         height: 100vh;
     }
+
+    .alturaJumbotronSobre {
+        height: 80vh;
+        padding: 5em 5em;
+    }
+
+    #blocoVantagensServicos {
+        height: 100vh;
+        padding: 5em 5em;
+    }
 }
 
+@media screen and (max-width: 767px) {
+    #blocoVantagensServicos {
+        height: 150vh;
+        padding: 0 0;
+    }
+
+    .parceiros .card {
+        margin-top: 10px;
+    }
+}
+
+/* Animações */
+
+.cardServicos {
+	position: relative;
+	top: 0;
+	-webkit-transition: top 1s ease;
+	-moz-transition: top 1s ease;
+	-o-transition: top 1s ease;
+	transition: top 1s ease;
+}
+.cardServicos:hover {
+	top: 25px;
+}

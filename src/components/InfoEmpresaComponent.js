@@ -5,8 +5,8 @@ import { INFOEMPRESA } from './../shared/infoEmpresa';
 function InfoEmpresa(props) {
     return (
         <React.Fragment>
-            <Jumbotron className="mb-0 alturaJumbotronServicos" fluid>
-                <Container className="my-5 text-black">
+            <Jumbotron className="mb-0 alturaJumbotronSobre corJumbotron" fluid>
+                <Container className="my-5 text-white">
                     <Row>
                         <Col md="12">
                             <h1 className="text-left display-4">Sobre</h1>

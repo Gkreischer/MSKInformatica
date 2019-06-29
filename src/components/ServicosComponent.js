@@ -14,7 +14,7 @@ function Servicos(props) {
 
         return (
             <Col md={4} key={servico.id}>
-                <Card>
+                <Card className="mt-3 mt-md-0">
                 <CardImg top width="100%" src={servico.imagem} alt="Card image cap" />
                     <CardBody>
                         <CardTitle>{servico.nome}</CardTitle>
@@ -26,9 +26,9 @@ function Servicos(props) {
     })
     return (
         <React.Fragment>
-            <Jumbotron className="alturaJumbotronServicos corJumbotronServicos" fluid>
-                <Container className="my-5 text-black" fluid>
-                    <h1 className="display-4">Serviços</h1>
+            <Jumbotron className="alturaJumbotronServicos bg-white mb-0" fluid>
+                <Container className="my-5" fluid>
+                    <h1 className="display-4 text-dark">Serviços</h1>
                     <Container>
                         <Row className="justify-content-center my-5">
                             {servicos}

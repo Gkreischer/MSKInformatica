@@ -4,6 +4,7 @@ import Header from './HeaderComponent';
 import Servicos from './ServicosComponent';
 import Vantagens from './VantagensComponent';
 import InfoEmpresa from './InfoEmpresaComponent';
+import Parceiros from './ParceirosComponent';
 
 // States
 import { INFOEMPRESA } from './../shared/infoEmpresa';
@@ -26,8 +27,9 @@ class Main extends Component {
             <React.Fragment>
                 <Header infoEmpresa={this.state.infoEmpresa}/>
                 <InfoEmpresa />
-                <Vantagens />
+                <Parceiros />
                 <Servicos servicosEmpresa={this.state.servicosEmpresa}/>
+                <Vantagens />
             </React.Fragment>
         );
     }
