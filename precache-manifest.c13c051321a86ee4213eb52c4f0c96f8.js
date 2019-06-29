@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd785ec310c8509fa43f48333d169918",
+    "revision": "1d9b233136c8889ebbdc71dafd262101",
     "url": "/MSKInformatica/index.html"
   },
   {
-    "revision": "4dd70e69e988e706f0e8",
+    "revision": "1dd9d4a46482bffdc1e7",
     "url": "/MSKInformatica/static/css/2.54faf5fa.chunk.css"
   },
   {
-    "revision": "dd2164044a18edbeb65e",
-    "url": "/MSKInformatica/static/css/main.29bc844a.chunk.css"
+    "revision": "77c7426f93aefc2022c8",
+    "url": "/MSKInformatica/static/css/main.b85e0daf.chunk.css"
   },
   {
-    "revision": "4dd70e69e988e706f0e8",
-    "url": "/MSKInformatica/static/js/2.856e8481.chunk.js"
+    "revision": "1dd9d4a46482bffdc1e7",
+    "url": "/MSKInformatica/static/js/2.0932c170.chunk.js"
   },
   {
-    "revision": "dd2164044a18edbeb65e",
-    "url": "/MSKInformatica/static/js/main.fd2146df.chunk.js"
+    "revision": "77c7426f93aefc2022c8",
+    "url": "/MSKInformatica/static/js/main.5e4c08f9.chunk.js"
   },
   {
     "revision": "d134dc338bef5826d03b",
