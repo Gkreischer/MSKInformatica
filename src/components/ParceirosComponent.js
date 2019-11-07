@@ -8,7 +8,7 @@ function Parceiros (props) {
                 <Container className="my-5 text-white parceiros">
                     <Row>
                         <Col md="12">
-                            <h1 className="text-center display-4">Parceiros</h1>
+                            <h1 className="text-center">Parceiros</h1>
                         </Col>
                     </Row>
                     <Row className="my-md-5">

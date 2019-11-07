@@ -21,8 +21,8 @@ function Servicos(props) {
                                 <i className={servico.imagem} aria-hidden="true"></i>
                             </span>
                         </div>
-                        <CardTitle>{servico.nome}</CardTitle>
-                        <CardText className="text-left">{servico.descricao}</CardText>
+                        <CardTitle className="text-center">{servico.nome}</CardTitle>
+                        <CardText style={{fontSize: '14px', paddingTop: '5%'}} className="text-center">{servico.descricao}</CardText>
                     </CardBody>
                 </Card>
             </Col>
@@ -32,7 +32,7 @@ function Servicos(props) {
         <React.Fragment>
             <Jumbotron className="alturaJumbotronServicos bg-white mb-0" fluid>
                 <Container className="my-5" fluid>
-                    <h1 className="display-4 text-dark">Serviços</h1>
+                    <h1 className="text-dark">Serviços</h1>
                     <Container>
                         <Row className="justify-content-center my-5">
                             {servicos}

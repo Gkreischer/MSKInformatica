@@ -23,10 +23,6 @@ html, body {
     font-size: 24px;
 }
 
-#logoEmpresa {
-    width: 50em;
-}
-
 
 
 h1, p {
@@ -40,29 +36,9 @@ h1, p {
     }
 }
 
-@media screen and (min-width: 768px) {
-    .alturaJumbotron {
-        height: 40vh;
-    }
-
-    .alturaJumbotronServicos {
-        height: 70vh;
-    }
-
-    .alturaJumbotronSobre {
-        height: 80vh;
-        padding: 5em 5em;
-    }
-
-    #blocoVantagensServicos {
-        height: 100vh;
-        padding: 5em 5em;
-    }
-}
-
 @media screen and (max-width: 767px) {
     #blocoVantagensServicos {
-        height: 145vh;
+        height: 210vh;
         padding: 0 0;
     }
 
