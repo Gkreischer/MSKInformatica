@@ -10,7 +10,6 @@ function Servicos(props) {
     const servicosEmpresa = props.servicosEmpresa;
 
     const servicos = servicosEmpresa.map((servico) => {
-        console.log(servico);
 
         return (
             <Col md={4} key={servico.id}>
@@ -32,8 +31,13 @@ function Servicos(props) {
         <React.Fragment>
             <Jumbotron className="alturaJumbotronServicos bg-white mb-0" fluid>
                 <Container className="my-5" fluid>
-                    <h1 className="text-dark">Serviços</h1>
+                    
                     <Container>
+                        <Row>
+                            <Col xs="12" md="12">
+                                <h1 className="text-dark">Serviços</h1>
+                            </Col>
+                        </Row>
                         <Row className="justify-content-center my-5">
                             {servicos}
                         </Row>

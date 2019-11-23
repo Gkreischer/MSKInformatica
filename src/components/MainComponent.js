@@ -28,6 +28,7 @@ class Main extends Component {
             infoEmpresa: INFOEMPRESA,
             servicosEmpresa: SERVICOSEMPRESA
         }
+
     }
 
     render() {
@@ -36,7 +37,8 @@ class Main extends Component {
                 <Header infoEmpresa={this.state.infoEmpresa}/>
                 <Switch>
                     <Route path='/home' component={Home} />
-                    <Route path='/parceiros' component={Parceiros} />
+                    <Route exact path='/parceiros' component={Parceiros} />
+                    <Route exact path="/servicos" component={() => <Servicos servicosEmpresa={this.state.servicosEmpresa} />} />
                     <Redirect to='/home' />
                 </Switch>
             </React.Fragment>
