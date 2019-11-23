@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Container } from 'reactstrap';
+import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Container, NavLink } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
     constructor(props) {
@@ -25,12 +26,21 @@ class Header extends Component {
             <React.Fragment>
                 <header>
                     <Navbar color="dark" dark expand="md">
-                        <NavbarBrand href="/">{this.state.infoEmpresa.nome}</NavbarBrand>
+                        <NavbarBrand href="/home">
+                            <img style={{width: 100}} src={this.state.infoEmpresa.logo} alt="Logotipo da MSK Informatica" />
+                        </NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
-                                    <span className="text-white">{this.state.infoEmpresa.email} | {this.state.infoEmpresa.telefone} | {this.state.infoEmpresa.whatsapp}</span>
+                                    <div className="nav-link">
+                                        <Link to="/home">Home</Link>
+                                    </div>
+                                </NavItem>
+                                <NavItem>
+                                    <div className="nav-link">
+                                       <Link to="/parceiros">Parceiros</Link>
+                                    </div>
                                 </NavItem>
                             </Nav>
                         </Collapse>

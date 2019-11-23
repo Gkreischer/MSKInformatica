@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
 import Header from './HeaderComponent';
 import Servicos from './ServicosComponent';
@@ -11,6 +12,13 @@ import { INFOEMPRESA } from './../shared/infoEmpresa';
 import { SERVICOSEMPRESA } from './../shared/servicosEmpresa';
 
 import './ConfigAparenciaGeral.css';
+import Home from './HomeComponent';
+
+const HomePage = () => {
+    return(
+        <Home />
+    );
+}
 
 class Main extends Component {
     constructor(props) {
@@ -26,10 +34,11 @@ class Main extends Component {
         return(
             <React.Fragment>
                 <Header infoEmpresa={this.state.infoEmpresa}/>
-                <InfoEmpresa />
-                <Parceiros />
-                <Servicos servicosEmpresa={this.state.servicosEmpresa}/>
-                <Vantagens />
+                <Switch>
+                    <Route path='/home' component={Home} />
+                    <Route path='/parceiros' component={Parceiros} />
+                    <Redirect to='/home' />
+                </Switch>
             </React.Fragment>
         );
     }
