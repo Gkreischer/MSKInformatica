@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ce7d3fd9156389c31fb1fa5e47ad649",
+    "revision": "01e74e43968d28af47afa7d27b1dd271",
     "url": "/MSKInformatica/index.html"
   },
   {
-    "revision": "9232811f29a4da918357",
-    "url": "/MSKInformatica/static/css/2.16e476ee.chunk.css"
+    "revision": "60be40b246b36a9931cd",
+    "url": "/MSKInformatica/static/css/2.c3bd35b3.chunk.css"
   },
   {
-    "revision": "35deed2284901c148f2a",
-    "url": "/MSKInformatica/static/css/main.b8054723.chunk.css"
+    "revision": "4a90266c4f2a05fec29d",
+    "url": "/MSKInformatica/static/css/main.a60635cb.chunk.css"
   },
   {
-    "revision": "9232811f29a4da918357",
-    "url": "/MSKInformatica/static/js/2.d64fac1c.chunk.js"
+    "revision": "60be40b246b36a9931cd",
+    "url": "/MSKInformatica/static/js/2.082b37a2.chunk.js"
   },
   {
-    "revision": "35deed2284901c148f2a",
-    "url": "/MSKInformatica/static/js/main.8221de9e.chunk.js"
+    "revision": "4a90266c4f2a05fec29d",
+    "url": "/MSKInformatica/static/js/main.3eef6ab2.chunk.js"
   },
   {
     "revision": "d134dc338bef5826d03b",
