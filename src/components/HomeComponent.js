@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Row, Col, Jumbotron } from 'reactstrap';
+import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
+import './../components/ConfigAparenciaGeral.css';
 
 function Home(props){
     return(
@@ -7,22 +8,15 @@ function Home(props){
             <Container>
                 <Row>
                     <Col xs="12" md="6">
-                        <h1 className="display-3">MSK Informatica</h1>
-                        <p className="lead">Serviços e soluções de TI para sua empresa</p>
+                        <h1 className="pb-md-5">MSK Informatica</h1>
+                        <p className="lead my-0">Serviços e soluções de TI para sua empresa</p>
                         <p>Redes, Servidores, Contratos, Manutenções...</p>
+                        <div className="homeButtonPosition">
+                            <Button className="mt-md-5" color="primary">Entre em contato</Button>
+                        </div>
                     </Col>
                     <Col xs="12" md="6">
-                        <img className="" src='/assets/images/informatica.png' alt="Imagem de conserto em computadores" className="img-fluid" />
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        
+                        <img src='/assets/images/informatica.png' alt="Imagem de conserto em computadores" className="img-fluid" />
                     </Col>
                 </Row>
             </Container>

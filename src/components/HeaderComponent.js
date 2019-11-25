@@ -39,12 +39,12 @@ class Header extends Component {
                                 </NavItem>
                                 <NavItem>
                                     <div className="nav-link">
-                                       <Link to="/parceiros">Parceiros</Link>
+                                       <Link to="/quemSomos">Quem Somos</Link>
                                     </div>
                                 </NavItem>
                                 <NavItem>
                                     <div className="nav-link">
-                                       <Link to="/servicos">Servicos</Link>
+                                       <Link to="/solucoes">Soluções</Link>
                                     </div>
                                 </NavItem>
                             </Nav>

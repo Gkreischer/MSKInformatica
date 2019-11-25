@@ -13,6 +13,7 @@ import { SERVICOSEMPRESA } from './../shared/servicosEmpresa';
 
 import './ConfigAparenciaGeral.css';
 import Home from './HomeComponent';
+import Footer from './FooterComponent';
 
 const HomePage = () => {
     return(
@@ -36,11 +37,12 @@ class Main extends Component {
             <React.Fragment>
                 <Header infoEmpresa={this.state.infoEmpresa}/>
                 <Switch>
-                    <Route path='/home' component={Home} />
-                    <Route exact path='/parceiros' component={Parceiros} />
+                    <Route path='/home' component={HomePage} />
+                    <Route exact path='/quemSomos' component={InfoEmpresa} />
                     <Route exact path="/servicos" component={() => <Servicos servicosEmpresa={this.state.servicosEmpresa} />} />
                     <Redirect to='/home' />
                 </Switch>
+                <Footer />
             </React.Fragment>
         );
     }

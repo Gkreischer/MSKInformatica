@@ -4,8 +4,8 @@ import { Jumbotron, Row, Col, Container, Card, CardImg } from 'reactstrap';
 function Parceiros (props) {
     return(
         <React.Fragment>
-            <Jumbotron className="mb-0 alturaJumbotronSobre bg-dark" fluid>
-                <Container className="my-5 text-white parceiros">
+            <Jumbotron className="mb-0 alturaJumbotronSobre" fluid>
+                <Container className="my-5 text-black parceiros">
                     <Row>
                         <Col md="12">
                             <h1 className="text-center">Parceiros</h1>

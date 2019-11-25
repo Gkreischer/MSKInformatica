@@ -27,11 +27,24 @@ a {
     color: white;
 }
 
+.links-list-custom li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 
 
 @media screen and (max-width: 767px){
     h1, p {
         text-align: center;
+    }
+
+    .homeButtonPosition {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 48px;
     }
 }
 
