@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eef76a4617ba3407119f4c26fe238adb",
+    "revision": "50d7294d3f0ec92a2f34ea3890a612b7",
     "url": "/MSKInformatica/index.html"
   },
   {
-    "revision": "59c0edd0dc5ba63efc82",
-    "url": "/MSKInformatica/static/css/2.f4da3fac.chunk.css"
+    "revision": "323aaffd5103348e6d5b",
+    "url": "/MSKInformatica/static/css/2.c58ee347.chunk.css"
   },
   {
-    "revision": "dfc6a4495c1c8bcde5de",
-    "url": "/MSKInformatica/static/css/main.150fc9d4.chunk.css"
+    "revision": "5a7de85bf6f929a5288e",
+    "url": "/MSKInformatica/static/css/main.241ef784.chunk.css"
   },
   {
-    "revision": "59c0edd0dc5ba63efc82",
-    "url": "/MSKInformatica/static/js/2.249cd56a.chunk.js"
+    "revision": "323aaffd5103348e6d5b",
+    "url": "/MSKInformatica/static/js/2.bf94181b.chunk.js"
   },
   {
     "revision": "a73511fdd0e79fea52c5f42ad1574633",
-    "url": "/MSKInformatica/static/js/2.249cd56a.chunk.js.LICENSE.txt"
+    "url": "/MSKInformatica/static/js/2.bf94181b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dfc6a4495c1c8bcde5de",
-    "url": "/MSKInformatica/static/js/main.2a348686.chunk.js"
+    "revision": "5a7de85bf6f929a5288e",
+    "url": "/MSKInformatica/static/js/main.884a4206.chunk.js"
   },
   {
     "revision": "f79c0a16b7837a988209",
@@ -38,6 +38,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b3dcdc045461313f869004e426f1910a",
     "url": "/MSKInformatica/static/media/contract.b3dcdc04.jpg"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/MSKInformatica/static/media/fontawesome-webfont.674f50d2.eot"
+  },
+  {
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/MSKInformatica/static/media/fontawesome-webfont.912ec66d.svg"
+  },
+  {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/MSKInformatica/static/media/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/MSKInformatica/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/MSKInformatica/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",

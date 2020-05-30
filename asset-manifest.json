@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/MSKInformatica/static/css/main.150fc9d4.chunk.css",
-    "main.js": "/MSKInformatica/static/js/main.2a348686.chunk.js",
-    "main.js.map": "/MSKInformatica/static/js/main.2a348686.chunk.js.map",
+    "main.css": "/MSKInformatica/static/css/main.241ef784.chunk.css",
+    "main.js": "/MSKInformatica/static/js/main.884a4206.chunk.js",
+    "main.js.map": "/MSKInformatica/static/js/main.884a4206.chunk.js.map",
     "runtime-main.js": "/MSKInformatica/static/js/runtime-main.2083a210.js",
     "runtime-main.js.map": "/MSKInformatica/static/js/runtime-main.2083a210.js.map",
-    "static/css/2.f4da3fac.chunk.css": "/MSKInformatica/static/css/2.f4da3fac.chunk.css",
-    "static/js/2.249cd56a.chunk.js": "/MSKInformatica/static/js/2.249cd56a.chunk.js",
-    "static/js/2.249cd56a.chunk.js.map": "/MSKInformatica/static/js/2.249cd56a.chunk.js.map",
+    "static/css/2.c58ee347.chunk.css": "/MSKInformatica/static/css/2.c58ee347.chunk.css",
+    "static/js/2.bf94181b.chunk.js": "/MSKInformatica/static/js/2.bf94181b.chunk.js",
+    "static/js/2.bf94181b.chunk.js.map": "/MSKInformatica/static/js/2.bf94181b.chunk.js.map",
     "index.html": "/MSKInformatica/index.html",
-    "precache-manifest.9c741d2841862473db7b21b5393e1893.js": "/MSKInformatica/precache-manifest.9c741d2841862473db7b21b5393e1893.js",
+    "precache-manifest.9af845a6d168dfc91974817fb2bd04bf.js": "/MSKInformatica/precache-manifest.9af845a6d168dfc91974817fb2bd04bf.js",
     "service-worker.js": "/MSKInformatica/service-worker.js",
-    "static/css/2.f4da3fac.chunk.css.map": "/MSKInformatica/static/css/2.f4da3fac.chunk.css.map",
-    "static/css/main.150fc9d4.chunk.css.map": "/MSKInformatica/static/css/main.150fc9d4.chunk.css.map",
-    "static/js/2.249cd56a.chunk.js.LICENSE.txt": "/MSKInformatica/static/js/2.249cd56a.chunk.js.LICENSE.txt",
+    "static/css/2.c58ee347.chunk.css.map": "/MSKInformatica/static/css/2.c58ee347.chunk.css.map",
+    "static/css/main.241ef784.chunk.css.map": "/MSKInformatica/static/css/main.241ef784.chunk.css.map",
+    "static/js/2.bf94181b.chunk.js.LICENSE.txt": "/MSKInformatica/static/js/2.bf94181b.chunk.js.LICENSE.txt",
     "static/media/bonecomsk.png": "/MSKInformatica/static/media/bonecomsk.2644514a.png",
     "static/media/computer_repair.jpg": "/MSKInformatica/static/media/computer_repair.d325f147.jpg",
     "static/media/contract.jpg": "/MSKInformatica/static/media/contract.b3dcdc04.jpg",
+    "static/media/font-awesome.min.css": "/MSKInformatica/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/logo.svg": "/MSKInformatica/static/media/logo.5d5d9eef.svg",
     "static/media/logo_amazon.svg": "/MSKInformatica/static/media/logo_amazon.fea38bbf.svg",
     "static/media/logo_linux.png": "/MSKInformatica/static/media/logo_linux.8b8cfc5c.png",
@@ -27,9 +28,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2083a210.js",
-    "static/css/2.f4da3fac.chunk.css",
-    "static/js/2.249cd56a.chunk.js",
-    "static/css/main.150fc9d4.chunk.css",
-    "static/js/main.2a348686.chunk.js"
+    "static/css/2.c58ee347.chunk.css",
+    "static/js/2.bf94181b.chunk.js",
+    "static/css/main.241ef784.chunk.css",
+    "static/js/main.884a4206.chunk.js"
   ]
 }
