@@ -1,1 +1,0 @@
-export const defaultRoute = 'http://gkreischer.github.io/MSKInformatica';
