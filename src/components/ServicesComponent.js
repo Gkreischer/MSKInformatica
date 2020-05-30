@@ -3,12 +3,12 @@ import { Hero, Container, Column, Image, Media, Title, Content, Card } from 'rbx
 
 const ServicesComponent = (props) => {
     return (
-        <Hero size={"medium"}>
+        <Hero size="medium">
             <Hero.Body>
                 <Container>
                     <Column.Group multiline centered>
                         <Column size={12}>
-                            <Title size={1} style={{ textAlign: 'center', marginBottom: 120 }}>Veja nossos serviços</Title>
+                            <Title size={1} style={{ textAlign: 'center', marginBottom: 30 }}>Veja nossos serviços</Title>
                         </Column>
                     </Column.Group>
                     <Column.Group>

@@ -4,6 +4,7 @@ import HeadComponent from './HeadComponent';
 import HistoryComponent from './HistoryComponent';
 import ServicesComponent from './ServicesComponent';
 import ContactComponent from './ContactComponent';
+import FooterComponent from './FooterComponent';
 class Main extends Component {
     constructor(props) {
         super(props);
@@ -20,6 +21,7 @@ class Main extends Component {
                 <HistoryComponent />
                 <ServicesComponent />
                 <ContactComponent />
+                <FooterComponent />
             </div>
         );
     }
