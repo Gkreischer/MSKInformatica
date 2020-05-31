@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Hero, Content, Column, Title } from 'rbx';
+import { Hero, Content, Column, Title } from 'rbx';
 const Footer = (props) => {
     return(
         <footer id="footer">

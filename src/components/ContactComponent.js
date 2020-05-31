@@ -2,7 +2,7 @@ import React from 'react';
 import { Hero, Title, Container, Column, Field, Label, Control, Input, Textarea, Button, Notification } from 'rbx'
 const ContactComponent = (props) => {
     return(
-        <Hero size={"medium"} gradient color={"info"}>
+        <Hero size="medium" gradient color="link">
             <Hero.Body>
                 <Container>
                     <Column.Group style={{textAlign: 'center'}}>

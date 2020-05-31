@@ -8,7 +8,7 @@ const ServicesComponent = (props) => {
                 <Container>
                     <Column.Group multiline centered>
                         <Column size={12}>
-                            <Title size={1} style={{ textAlign: 'center', marginBottom: 30 }}>Veja nossos serviços</Title>
+                            <Title size={1} style={{ textAlign: 'center', marginBottom: 30 }}>Nossos serviços</Title>
                         </Column>
                     </Column.Group>
                     <Column.Group>
@@ -47,7 +47,7 @@ const ServicesComponent = (props) => {
                                     <Media>
                                         <Media.Item>
                                             <Title as="p" size={4}>
-                                                Computadores
+                                                Computadores/Servidores
                                             </Title>
                                             <Title as="p" subtitle size={6}>
                                                 Montagem e manutenção
@@ -86,7 +86,7 @@ const ServicesComponent = (props) => {
                         </Column>
                     </Column.Group>
                     <Column.Group >
-                        <Column style={{ textAlign: 'center', marginTop: 120 }}>
+                        <Column style={{ textAlign: 'center', marginTop: 100 }}>
                             <Title>Utilizamos as últimas tecnologias do mercado</Title>
                         </Column>
                     </Column.Group>
@@ -97,17 +97,17 @@ const ServicesComponent = (props) => {
                             </Image.Container>
                         </Column>
                         <Column>
-                            <Image.Container size={2} style={{ height: 50, width: 180 }} size={128}>
+                            <Image.Container  style={{ height: 50, width: 180 }} size={128}>
                                 <Image src={require("./shared/logo_pfsense.png")} />
                             </Image.Container>
                         </Column>
                         <Column>
-                            <Image.Container size={2} size={128}>
+                            <Image.Container  size={128}>
                                 <Image src={require("./shared/logo_linux.png")} />
                             </Image.Container>
                         </Column>
                         <Column>
-                            <Image.Container size={2} size={128}>
+                            <Image.Container  size={128}>
                                 <Image src={require("./shared/logo_windows.png")} />
                             </Image.Container>
                         </Column>

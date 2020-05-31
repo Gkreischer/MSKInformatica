@@ -36,7 +36,7 @@ const HeadComponent = () => {
                                            <i className="fa fa-desktop" aria-hidden="true"></i> Reparo e manutenção de computadores
                                            </Title>
                                            <Title as="h3" subtitle>
-                                           <i className="fa fa-connectdevelop" aria-hidden="true"></i> Implementação e configuração de redes certificadas
+                                            <i className="fa fa-connectdevelop" aria-hidden="true"></i> Implementação e configuração de redes certificadas
                                            </Title>
                                            <Title as="h3" subtitle>
                                            <i className="fa fa-shield" aria-hidden="true"></i> Monitoramento e controle digital
@@ -46,7 +46,7 @@ const HeadComponent = () => {
                                 </Hero.Body>
                             </Hero>
                         </Column>
-                    </Column.Group>
+>                    </Column.Group>
                 </Container>
             </div>
         </Parallax>

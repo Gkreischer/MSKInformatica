@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Navbar } from 'rbx';
+import { Navbar } from 'rbx';
 
 const NavbarComponent = (props) => {
     return (
